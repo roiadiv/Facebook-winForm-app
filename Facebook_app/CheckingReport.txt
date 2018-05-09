@@ -1,0 +1,10 @@
+﻿==========================Exercise Checking Report==========================
+Exercise No...........: 3
+First Student Details.: 304815616 - Ben Vaindling
+Second Student Details: 203055892 - Roy Adiv
+Delivery Date.........: 19 - September 2017
+Delivered In Delay....: Yes
+Delay Reason..........: Not Enough Time
+Visual Studio Version.: 2017
+Comments..............: 
+=======================End Exercise Checking Report=========================

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="C17_Ex01_Ben_304815616_Roy_203055892.AppSettings">
+    <Position X="8" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACEAgAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAECA=</HashCode>
+      <FileName>AppSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C17_Ex01_Ben_304815616_Roy_203055892.FormStartApp">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAgAAAACAAAAGAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>FormStartApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C17_Ex01_Ben_304815616_Roy_203055892.FormMain" Collapsed="true">
+    <Position X="10" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CxAINBoZC2EEItoBAJDBACLSp1BdAFEIiCAiNQBA3IE=</HashCode>
+      <FileName>FormMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C17_Ex01_Ben_304815616_Roy_203055892.FormMostAttendedEvent">
+    <Position X="5" Y="6" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAAhAAAACAAAICAEAAAAAABABAAAAIAQA=</HashCode>
+      <FileName>FormMostAttendedEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C17_Ex01_Ben_304815616_Roy_203055892.FormMostLikedPhoto">
+    <Position X="3.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAEAACAAABBAAACAAAICAAEAQAAAAEAAAAAAAAg=</HashCode>
+      <FileName>FormMostLikedPhoto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C17_Ex01_Ben_304815616_Roy_203055892.FormMostLikedPost">
+    <Position X="4.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAABAAAACAAAISAgAAAEQABAAAAAAIEAA=</HashCode>
+      <FileName>FormMostLikedPost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C17_Ex01_Ben_304815616_Roy_203055892.LikesPagesWrapper">
+    <Position X="9.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>LikesPagesWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C17_Ex01_Ben_304815616_Roy_203055892.Program">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C17_Ex01_Ben_304815616_Roy_203055892.Properties.Resources">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgEBAAAAAAAgEgAABEAIAAYAQAAAAAAAAAAAAQYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C17_Ex01_Ben_304815616_Roy_203055892.Properties.Settings" Collapsed="true">
+    <Position X="4.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

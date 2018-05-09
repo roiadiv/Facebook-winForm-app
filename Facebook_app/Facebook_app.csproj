@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2BB2FFDF-D8B8-468A-8A7C-B302EBBA5E47}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Facebook_app</RootNamespace>
+    <AssemblyName>Facebook_app</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Facebook">
+      <HintPath>..\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="FbGraphApiWrapper">
+      <HintPath>..\FbGraphApiWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alpha.cs" />
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="BGR.cs" />
+    <Compile Include="BlackAndWhite.cs" />
+    <Compile Include="ColorChangerDecorator.cs" />
+    <Compile Include="CommenstStrategy.cs" />
+    <Compile Include="DateStrategy.cs" />
+    <Compile Include="eColorTypes.cs" />
+    <Compile Include="eDecoratorFeatures.cs" />
+    <Compile Include="eFbFeatures.cs" />
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="eThugLifeItems.cs" />
+    <Compile Include="FetchFactory.cs" />
+    <Compile Include="FormNavigateToEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNavigateToEvent.Designer.cs">
+      <DependentUpon>FormNavigateToEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStartApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStartApp.Designer.cs">
+      <DependentUpon>FormStartApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Glasses.cs" />
+    <Compile Include="Grayscale.cs" />
+    <Compile Include="Hat.cs" />
+    <Compile Include="Invert.cs" />
+    <Compile Include="IPhotoComponent.cs" />
+    <Compile Include="IPosts.cs" />
+    <Compile Include="IPostStrategy.cs" />
+    <Compile Include="ThugLifeDecorator.cs" />
+    <Compile Include="Joint.cs" />
+    <Compile Include="LikesPagesWrapper.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMostAttendedEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMostAttendedEvent.Designer.cs">
+      <DependentUpon>FormMostAttendedEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMostLikedPhoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMostLikedPhoto.Designer.cs">
+      <DependentUpon>FormMostLikedPhoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMostLikedPost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMostLikedPost.Designer.cs">
+      <DependentUpon>FormMostLikedPost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LikesStrategy.cs" />
+    <Compile Include="MostLikedPictureFeatureForm.cs" />
+    <Compile Include="Necklace.cs" />
+    <Compile Include="PhotoComponent.cs" />
+    <Compile Include="PhotoComposite.cs" />
+    <Compile Include="PhotoDecorator.cs" />
+    <Compile Include="PictureBoxProxy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Polaroid.cs" />
+    <Compile Include="PostsAdapter.cs" />
+    <Compile Include="PostStrategy.cs" />
+    <Compile Include="PostStrategyFactory.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sepia.cs" />
+    <Compile Include="TreeNodeWrapper.cs" />
+    <Compile Include="UserFriendsWrapper.cs" />
+    <EmbeddedResource Include="FormNavigateToEvent.resx">
+      <DependentUpon>FormNavigateToEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStartApp.resx">
+      <DependentUpon>FormStartApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMostAttendedEvent.resx">
+      <DependentUpon>FormMostAttendedEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMostLikedPhoto.resx">
+      <DependentUpon>FormMostLikedPhoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMostLikedPost.resx">
+      <DependentUpon>FormMostLikedPost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\DataSources\FacebookWrapper.ObjectModel.Page.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnterButton.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LikeGIF.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Welcome.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogInButton.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backMainForm2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundForm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no-image-available-md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MostAttendingEventbutton.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrameProfile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pictureProfile.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CheckingReport.txt" />
+    <None Include="Resources\Thug-Life-Black-Hat-PNG.png" />
+    <None Include="Resources\Thug-Life-Cool-Glasse1.png" />
+    <None Include="Resources\Thug-Life-Gold-Chain1.png" />
+    <None Include="Resources\thugLifeJoint.png" />
+    <None Include="Resources\necklace1.png" />
+    <None Include="Resources\Thug-Hat1.png" />
+    <None Include="Resources\Thug-Hat.png" />
+    <None Include="Resources\necklace.png" />
+    <None Include="Resources\hat1.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
